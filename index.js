@@ -11,8 +11,8 @@ increase.addEventListener('click',()=>{
   counter.innerHTML = count;
 })
 reset.addEventListener('click',()=>{
-    
-    counter.innerHTML = 0;
+    count = 0
+    counter.innerHTML = count;
 })
 decrease.addEventListener('click',()=>{
     count -=1 ;
